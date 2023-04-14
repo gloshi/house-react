@@ -1,0 +1,184 @@
+.container {
+}
+.noticeTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #404040;
+  }
+  div {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #404040;
+  }
+  margin-bottom: 60px;
+}
+.box {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.card {
+    cursor: pointer;
+  height: 336px;
+  width: 640px;
+  background: #ffffff;
+  border-radius: 16px 16px 0px 0px;
+    position: relative;
+  img {
+    height: 255px;
+    width: 640px;
+    border-radius: 16px 16px 0px 0px;
+  }
+}
+.date {
+    position: absolute;
+    width: 279px;
+height: 50px;
+left: 0px;
+top: 229px;
+
+/* Colors/#1 */
+
+background: #119FC3;
+border-radius: 0px 160px 160px 0px;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 9px 16px;
+color: #FFFFFF;
+top: 215px;
+}
+.title {
+    padding-top: 35px;
+    font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+padding-left: 16px;
+color: #404040
+}
+.links {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    .img {
+        width: 640px;
+height: 331px;
+    }
+}
+.jkh {
+    position: relative;
+    background: #FFFFFF;
+
+    height: 409px;
+    width: 640px;
+
+
+}
+.mask {
+    position: absolute;
+    left: 292px;
+top: 32px;
+}
+.jkhTitle {
+    position: absolute;
+    left: 110px;
+top: 117px;
+
+width: 419px;
+height: 86px;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.linksLine {
+    
+position: absolute;
+width: 259px;
+height: 0px;
+left: 191px;
+top: 254px;
+
+border: 2px solid #FFFFFF;
+}
+.reviews {
+    position: relative;
+    background: #FFFFFF;
+
+    height: 409px;
+    width: 640px;
+}
+.reviewsTitle {
+    position: absolute;
+    width: 310px;
+height: 86px;
+left: 165px;
+top: 117px;
+
+
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.desc {
+    font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+/* Others/Text */
+
+color: #404040;
+width: 543px;
+height: 56px;
+padding: 12px 24px;
+}
+.noticeLine {
+    width: 96%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 0px;
+border: 1px solid #DCDCDC;
+    margin-bottom: 80px;
+}
+.parent {
+    position: relative;
+
+}
+.arrow {
+
+    position: absolute;
+    bottom: 10px;
+    left: 100%;
+    top: -140px;
+    cursor: pointer;
+}

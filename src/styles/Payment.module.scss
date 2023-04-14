@@ -1,0 +1,179 @@
+.container {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 78px;
+}
+
+.main {
+  display: flex;
+  gap: 217px;
+  justify-content: center;
+}
+
+.text {
+  width: 640px;
+  height: 126px;
+
+  h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 63px;
+
+    /* Others/Text */
+
+    color: #404040;
+  }
+  span {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* Others/Text */
+
+    color: #404040;
+  }
+}
+
+.family {
+  position: relative;
+  img {
+    border-radius: 1000px;
+    height: 371px;
+    width: 377px;
+
+    border: 3px solid #f6f6f6;
+  }
+}
+.star {
+  position: absolute;
+  left: 1473px;
+  top: 197px;
+}
+.inputsBox {
+    margin-top: 85px;
+  width: 1312px;
+  height: 365px;
+  background: #c5edf6;
+  border-radius: 16px;
+  h1 {
+    width: 723px;
+    height: 63px;
+    padding-left: 80px;
+    // padding: 32px 509px 40px 80px;
+    font-weight: 400;
+font-size: 48px;
+line-height: 63px;
+
+/* Others/Text */
+
+color: #404040;
+  }
+}
+.firstBox {
+    display: flex;
+    gap: 36px;
+    padding-left: 80px;
+
+    input {
+        width: 360px;
+height: 51px;
+
+background: #FFFFFF;
+/* UI Elements/Own */
+
+border: 1px solid #F0F0F0;
+border-radius: 8px;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+
+color: #404040;
+    }
+}
+.sum {
+    padding-top: 17px;
+    padding-left: 80px;
+    padding-bottom: 8px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Others/Text */
+
+color: #404040;
+}
+.secondBox {
+    padding-left: 80px;
+    display: flex;
+    gap: 36px;
+    input {
+        width: 360px;
+        height: 51px;
+        
+        background: #FFFFFF;
+        /* UI Elements/Own */
+        
+        border: 1px solid #F0F0F0;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        
+        
+        color: #404040;
+    }
+    button {
+        width: 360px;
+        height: 51px;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        background: #C5EDF6;
+        font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+/* Others/Text */
+
+color: #404040;
+cursor: pointer;
+    }
+}
+
+.agreement {
+    padding-left: 80px;
+    padding-top: 25px;
+    form {
+        display: flex;
+        align-items: center;
+    }
+    input {
+        width: 25px;
+        height: 25px;
+    }
+    label {
+        padding-left: 10px;
+        font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+
+
+/* Others/Text */
+
+color: #404040;
+    }
+}
+
+
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}

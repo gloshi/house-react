@@ -1,0 +1,20 @@
+.container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    
+}
+.card {
+    
+    img {
+        border-radius: 16px;
+    }
+}

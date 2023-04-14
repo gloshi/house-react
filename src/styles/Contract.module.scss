@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    h1 {
+        font-weight: 400;
+font-size: 36px;
+line-height: 47px;
+
+/* Others/Text */
+
+color: #404040;
+    }
+}
+.text {
+    font-weight: 300;
+font-size: 16px;
+line-height: 29px;
+
+/* Others/Text */
+
+color: #404040;
+padding-bottom: 64px;
+}
