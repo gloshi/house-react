@@ -3,7 +3,7 @@ import styles from "../styles/Footer.module.scss";
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <footer className={styles.container}>
       <div className={styles.footer}>
         <div>
           <h1>О компании</h1>
@@ -54,7 +54,7 @@ const Footer = () => {
         <h1>Диспетчерская служба</h1>
         <span>Работаем круглосуточно, без выходных +7 920 301-66-30</span>
       </div>
-    </div>
+    </footer>
   );
 };
 

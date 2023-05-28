@@ -9,7 +9,7 @@ const SingleNotice = () => {
   const list = useSelector(state => state.notices.list[id-1])
 
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       {
         list? <div className={styles.card}>
         <div className={styles.left}>
@@ -29,7 +29,7 @@ const SingleNotice = () => {
       <div className={styles.line}>
         <div></div>
       </div>
-    </div>
+    </main>
   );
 };
 

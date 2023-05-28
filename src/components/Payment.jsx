@@ -3,7 +3,7 @@ import styles from "../styles/Payment.module.scss";
 
 const Payment = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.main}>
         <div className={styles.text}>
           <h1>Оплата коммунальных услуг дистанционно</h1>
@@ -40,7 +40,7 @@ const Payment = () => {
             </form>
           </div>
         </div>
-    </div>
+    </section>
   );
 };
 

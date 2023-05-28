@@ -22,7 +22,7 @@ const Photos = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.box}>
       {photos.map((el) => (
         <div key={el.id} className={styles.card}>
@@ -30,7 +30,7 @@ const Photos = () => {
         </div>
       ))}
       </div>
-    </div>
+    </section>
   );
 };
 

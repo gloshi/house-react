@@ -8,7 +8,7 @@ const Notices = () => {
   console.log(list)
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       {
         list?.map((el,index) => (
           <div key={el.id} className={styles.card}>
@@ -26,7 +26,7 @@ const Notices = () => {
       </div> 
         )) 
       }
-    </div>
+    </section>
   )
 }
 

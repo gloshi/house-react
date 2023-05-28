@@ -3,7 +3,7 @@ import styles from "../styles/Stand.module.scss";
 
 const Stand = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.info}>
         <h1>Уважаемые жители!</h1>
         <div>
@@ -89,7 +89,7 @@ const Stand = () => {
       </div>
       <div className={styles.borderLine}>
       </div>
-    </div>
+    </section>
   );
 };
 

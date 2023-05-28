@@ -21,7 +21,7 @@ const Banner = () => {
     },
   ];
 
-  const [isActive, setIsActive] = useState(true);
+  
   const [slideIndex, setSlideIndex] = useState(1);
 
   const nextSlide = () => {
@@ -46,7 +46,7 @@ const Banner = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.banner}>
         {arr.map((el, index) => (
           <img
@@ -63,23 +63,23 @@ const Banner = () => {
       <button  onClick={()=>nextSlide()} className={styles.next}><img src="/img/sliderImg/right-arrow.svg" alt="" /></button>
       <div className={styles.bannerText}>
         <h1>Управляющая компания ООО УК «Дом»</h1>
-        <div>
+        <p>
           Наша задача — оказание профессиональной помощи собственникам
           и нанимателям жилья в создании комфортных и безопасных условий
           проживания в многоквартирных домах.
-        </div>
+        </p>
       </div>
       <div className={styles.bannerBtn}>
-        <div>Наши дома</div>
+        <span>Наши дома</span>
       </div>
       <div className={styles.about}>
-        <div>
+        <span>
           Основная цель деятельности Компании — обеспечение уюта и комфорта
           собственников на территории, поддержание сохранности, чистоты
           и порядка, а так же оперативное решение проблем собственников,
           устранение их замечаний и рассмотрение предложений по повышению
           качества обслуживания.
-        </div>
+        </span>
       </div>
       <div className={styles.line}>
         <div></div>
@@ -92,7 +92,7 @@ const Banner = () => {
         ))}
         <div></div>
       </div>
-    </div>
+    </section>
   );
 };
 

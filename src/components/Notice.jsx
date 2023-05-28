@@ -9,7 +9,7 @@ const Notice = () => {
   const { list } = useSelector(({ notices }) => notices);
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.noticeTitle}>
         <h1>Объявления</h1>
         <div>
@@ -58,7 +58,7 @@ const Notice = () => {
           <img onClick={()=> window.scrollTo(0,0)} src="/img/Arrow.svg" alt="Arrow" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

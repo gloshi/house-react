@@ -8,7 +8,7 @@ import search from "../importImages/search.svg";
 
 const NavBar = () => {
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <div className={styles.logo}>
         <Link to={ROUTE.HOME}>
           <img src={logo} alt="logo" />
@@ -42,7 +42,7 @@ const NavBar = () => {
       <div className={styles.search}>
         <img src={search} alt="logo" />
       </div>
-    </div>
+    </header>
   );
 };
 

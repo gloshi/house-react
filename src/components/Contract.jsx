@@ -3,7 +3,7 @@ import styles from "../styles/Contract.module.scss";
 
 const Contract = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h1>
         «Пpямoй дoгoвop c pecуpcникaми — блaгo, тaк кaк нe нaдo плaтить зa
         coceдeй»
@@ -36,7 +36,7 @@ const Contract = () => {
         </div>
         </div>
 
-    </div>
+    </section>
   );
 };
 
